@@ -481,7 +481,7 @@ class SheinVerseTracker:
                 # Wait 30 seconds for next check
                 await asyncio.sleep(30)
                 
-           except Exception as e:
+            except Exception as e:
                 logger.error(f"❌ Loop error: {e}")
                 await asyncio.sleep(30)  # Wait and retry
 
