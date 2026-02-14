@@ -6,7 +6,7 @@
   },
   "deploy": {
     "startCommand": "python main.py",
-    "healthcheckPath": "/health",
+    
     "restartPolicyType": "ALWAYS",
     "restartPolicyMaxRetries": 10,
     "sleepApplication": false
