@@ -22,7 +22,7 @@
     },
     "CHECK_INTERVAL_MINUTES": {
       "description": "Minutes between checks (2-10)",
-      "default": "5"
+      "default": "1"
     },
     "ENABLE_PROXY_ROTATION": {
       "description": "Enable proxy rotation (true/false)",
